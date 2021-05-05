@@ -1,0 +1,16 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    hikari:
+      connection-timeout: 20000
+      maximum-pool-size: 5
+    url: jdbc:postgresql://localhost:5432/exceptionaspect
+    username: fati
+    password: fati123.
+server:
+  port: 8082
+exception:
+  aspect:
+    default-exception-code: 0
